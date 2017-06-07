@@ -1,6 +1,12 @@
 ## AWS: Platform & Services
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png){:height="24px" width="48px"}
-![Minion](https://octodex.github.com/images/minion.png)
+AWS cloud platform can be categorized broadly into three main models for cloud computing:
+1. Infrastructure as a Service (IaaS): It provide access to networking features, computers (virtual or on dedicated hardware), and data storage space.
+2. Platform as a Service (PaaS): It helps organizations to be more efficient as they don’t need to worry about resource procurement, capacity planning, software maintenance, patching, or any of the other undifferentiated heavy lifting involved in running their application.
+3. Software as a Service (SaaS): It provide a completed product that is run and managed by the service provider. User do not have to think about how the service is maintained or how the underlying infrastructure is managed; you only need to think about how user will use that particular piece software.
+
+All the services offered by AWS fall in one of the above categories. Below are are set of different services that are provided by AWS:
+<img src="./Images/AWS_Platform.png" width="600">
+
 ### Infrastructure Services:
 AWS infra is split into Regions and Availability Zones
 
