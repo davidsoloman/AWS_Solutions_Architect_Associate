@@ -1,8 +1,6 @@
 ## AWS: Identity Access Management
-<img src="./Images/AWS_Platform.png" width="600">
+<img src="https://clouda-assets.s3.amazonaws.com/upload/54d0e3c7d287c266042be5dc.png?1422975944" width="600">
 
-Insert image here
- 
 **What is IAM?**
 - AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources for your users. You use IAM to control who can use your AWS resources (authentication) and what resources they can use and in what ways (authorization).
 - IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.
@@ -35,55 +33,55 @@ Following are the steps for setting up the IAM:
 
 <img src="./Images/IAM/IAM1.png" width="600">
 
-Step 1: IAM in the AWS Dashboard
+**Step 1:** IAM in the AWS Dashboard
  
 <img src="./Images/IAM/IAM2.png" width="600">
 
-Step 2: IAM Dashboard 
+**Step 2:** IAM Dashboard 
  
 <img src="./Images/IAM/IAM3.png" width="600">
 
-Step 3: Activate Multifactor Authentication on the root
+**Step 3:** Activate Multifactor Authentication on the root
   
 <img src="./Images/IAM/IAM4.png" width="600">
 
-Step 4: Add new IAM Users
+**Step 4:** Add new IAM Users
 
 <img src="./Images/IAM/IAM5.png" width="600">
 
-Step 5: Set type of access for each user.
+**Step 5:** Set type of access for each user.
 
 <img src="./Images/IAM/IAM6.png" width="600">
 
-Step 6: Add users to groups
+**Step 6:** Add users to groups
  
 <img src="./Images/IAM/IAM7.png" width="600">
 
-Step 7: Assign different privileges to user groups
+**Step 7:** Assign different privileges to user groups
  
 <img src="./Images/IAM/IAM8.png" width="600">
 
-Step 8: Review permissions for group
+**Step 8:** Review permissions for group
 
 <img src="./Images/IAM/IAM9.png" width="600">
 
-Step 9: Users are added successfully with access assigned to users.
+**Step 9:** Users are added successfully with access assigned to users.
 
 <img src="./Images/IAM/IAM10.png" width="600">
 
-Step 10: Users can be added to more than one groups and granted additional permissions.
+**Step 10:** Users can be added to more than one groups and granted additional permissions.
 
 <img src="./Images/IAM/IAM11.png" width="600">
 
-Step 11: Access can be revoked for a user or can be made inactive
+**Step 11:** Access can be revoked for a user or can be made inactive
 
 <img src="./Images/IAM/IAM12.png" width="600">
 
-Step 12: Admin can set up a password policy for the users
+**Step 12:** Admin can set up a password policy for the users
 
 <img src="./Images/IAM/IAM13.png" width="600">
 
-Step 13: After all the 5 fields are green IAM is good.
+**Step 13:** After all the 5 fields are green IAM is good.
  
  
  
