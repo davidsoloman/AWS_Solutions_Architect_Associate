@@ -8,10 +8,11 @@
 - files are stored in a bucket. A Bucket is synonymous to Folder
 - S3 is a universal namespace, which mean bucket name has to be unique
 - A bucket name is a url with following component:
- 
- https://s3-
- s3 + region + bucket name
-- File upload code : 200(successful upload),  
+```
+ https://s3-us-west-2.amazonaws.com/dhananjay28/32.png
+ s3 + region + bucketname
+```
+- File upload code : 200(successful upload)  
 
 #### S3: Data consistency model
 - Read and write consistency for put (upload) operation. These operations are ACID
@@ -86,20 +87,62 @@ Additional properties can be enabled to include logging(log reports such as acce
 <img src="../Images/S3/S310.png" width="600">
 
 **Step 5.** Upload files to S3
+
 <img src="../Images/S3/S310.png" width="600">
 
 <img src="../Images/S3/S311.png" width="600">
 
 <img src="../Images/S3/S312.png" width="600">
 
-<img src="../Images/S3/S313.png" width="600">
+Note: Permissions can be set up while creating the 
+
+<img src="../Images/S3/s313.png" width="600">
 
 **Step 6.** Properties of the object can be changed.
 
 <img src="../Images/S3/S314.png" width="600">
 
-<img src="../Images/S3/S315.png" width="600">
+<img src="../Images/S3/S15.png" width="600">
 
 <img src="../Images/S3/S316.png" width="600">
 
+#### S3: Versioning Control
+- Version control allow to maintain new version of any file, any new update made to the file is updated as a new version of the file.  
+- Once versioning is created for a bucket it cannot be removed but can only be disabled. If user need to remove the versioning then a new bucket needs to be created.
+- Even if the bucket has been set up as read, objects in the bucket might not be allowed to read.
+- Versioning can maintain several version of a file, but from architectural stand point it is highly inefficient if versioning is envoked on a heavy file without putting a lifecycle management in place. A lifecycle management can ensure older versions are either deleted or archived (glacier) and only few versions of the files are maintained on the bucket. This will not only help to save expense of the organization but will limit the size of the bucket.
+- Note: Size of a bucket is the sum of all the files and their versions in a bucket.
 
+**Setting Version Control**
+
+**Step 1.** Enable version control in bucket permission  
+
+<img src="../Images/S3/S317.png" width="600">
+
+**Step 2.** Add new file to bucket
+
+<img src="../Images/S3/S318.png" width="600">
+
+**Step 3.** Add updated file to bucket, there will two visible versions of a file
+
+<img src="../Images/S3/S319.png" width="600">
+
+<img src="../Images/S3/S320.png" width="600">
+
+**Step 4.** Bucket object can be deleted and can be restored but if the files are deleted they can not be restored
+ 
+ <img src="../Images/S3/S321.png" width="600">
+ 
+ Once the file object is deleted, (restore to old version as it is easier to delete :P)
+ 
+ <img src="../Images/S3/S321.png" width="600">
+ 
+ Select the bucket and Go to show option to see the deleted files and versions.
+ 
+ <img src="../Images/S3/S322.png" width="600">
+ 
+ To restore the file go to bucket, click on show and delete the delete marker. 
+ 
+ <img src="../Images/S3/S323.png" width="600">
+ 
+ <img src="../Images/S3/S324.png" width="600">

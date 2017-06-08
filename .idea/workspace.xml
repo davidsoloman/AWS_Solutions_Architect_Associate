@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfad70a-19af-4f96-882d-3bcb6cd1c97f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/AWS_S3.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/AWS_IAM.md" afterPath="$PROJECT_DIR$/Notes/AWS_IAM.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/AWS_Platform&amp;Services.md" afterPath="$PROJECT_DIR$/Notes/AWS_Platform&amp;Services.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/AWS_S3.md" afterPath="$PROJECT_DIR$/Notes/AWS_S3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="AWS_Solution_Architect_Associate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="195">
+                <caret line="11" column="131" selection-start-line="11" selection-start-column="131" selection-end-line="11" selection-end-column="131" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -45,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/Notes/AWS_S3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-43">
-                <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+              <first_editor relative-caret-position="452">
+                <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -72,6 +70,7 @@
         <option value="$PROJECT_DIR$/Notes/AWS_Setting_Billing_Alarm.md" />
         <option value="$PROJECT_DIR$/Notes/AWS_IAM.md" />
         <option value="$PROJECT_DIR$/Notes/AWS_Platform&amp;Services.md" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Notes/AWS_S3.md" />
       </list>
     </option>
@@ -516,8 +515,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="195">
+            <caret line="11" column="131" selection-start-line="11" selection-start-column="131" selection-end-line="11" selection-end-column="131" />
             <folding />
           </first_editor>
           <second_editor />
@@ -530,8 +529,8 @@
     <entry file="file://$PROJECT_DIR$/Notes/AWS_S3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-43">
-            <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <first_editor relative-caret-position="452">
+            <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />
