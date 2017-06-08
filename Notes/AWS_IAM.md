@@ -3,7 +3,7 @@
 <img src="https://clouda-assets.s3.amazonaws.com/upload/54d0e3c7d287c266042be5dc.png?1422975944" width="300">
 
 
-**What is IAM?**
+#### What is IAM?
 - AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources for your users. You use IAM to control who can use your AWS resources (authentication) and what resources they can use and in what ways (authorization).
 - IAM is universal and not limited to region.
 - IAM offers centralized control of your AWS account.
@@ -11,7 +11,7 @@
 - IAM offers fine-grained access control to AWS resources.
 - IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.
 
-**What does IAM provide?**
+#### What does IAM provide?
 - Centralized control of AWS account
 - Shared Access of AWS account
 - Granular permissions for individual user or service
@@ -21,7 +21,8 @@
 - Allow to set up password rotation policy
 - Support PCI-DSS compliance
 
-**Important terms in IAM?**
+#### Important terms in IAM?
+
 Users - End users
 Groups - Groups or departments in office
 Roles - Roles can be created and then assigned to AWS resources. Eg. A role can be defined for EC2 instance to process data and load to S3
@@ -42,7 +43,7 @@ eg. AdministratorAccess
 }
 ```
 
-**Setting up IAM**
+#### Setting up IAM
 
 - IAM is a global feature, it is not bound to a region
 - IAM users sign in link consist of the AWS account number of parent account 
@@ -109,7 +110,8 @@ Following are the steps for setting up the IAM:
 
 
 
-**IAM usage scenarios**
+#### IAM usage scenarios
+
 *Case 1: You are a solutions architect working for a large engineering company who are moving from a legacy infrastructure to AWS. You have configured the company's first AWS account and you have set up IAM. Your company is based in Andorra, but there will be a small subsidiary operating out of South Korea, so that office will need its own AWS environment. Which of the following statements is true?*
 - You will need to configure Users and Policy Documents only once, as these are applied globally.
 
@@ -119,7 +121,7 @@ Following are the steps for setting up the IAM:
 *Case 3: A new employee has just started work, and it is your job to give her administrator access to the AWS console. You have given her a user name, an access key ID, a secret access key, and you have generated a password for her. She is now able to log in to the AWS console, but she is unable to interact with any AWS services. What should you do next?*
 - Grant her Administrator access by adding her to the Administrators' group.
 
-Note: A **Power user** has access to all AWS services except the management of groups and users within IAM. A **root user/account** have administrator access.
+**Note:** A **Power user** has access to all AWS services except the management of groups and users within IAM. A **root user/account** have administrator access.
 
 *Case 4: You are a developer at a fast growing start up. Until now, you have used the root account to log in to the AWS console. However, as you have taken on more staff, you will now need to stop sharing the root account to prevent accidental damage to your AWS infrastructure. What should you do so that everyone can access the AWS resources they need to do their jobs?*
 - Create individual user accounts with minimum necessary rights and tell the staff to log in to the console using the credentials provided.

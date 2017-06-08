@@ -6,6 +6,8 @@ AWS cloud platform can be categorized broadly into three main models for cloud c
 
 <img src="../Images/AWS_Platform.png" width="600">
 
+<img src="../Images/AWS_Services.png" width="600">
+
 All the services offered by AWS fall in one of the above categories. Below are are set of different services that are provided by AWS:
 
 
