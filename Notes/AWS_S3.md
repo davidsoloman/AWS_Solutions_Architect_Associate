@@ -14,16 +14,18 @@
 ```
 - File upload code : 200(successful upload)  
 
-1. [S3: Data consistency model]( README.md#S3:-Data-consistency-model)
-2. [S3 : a key value store](README.md#S3:-a-key-value-store)
-3. [S3: Storage Tiers](README.md#S3:-Storage-Tiers)
-4. [S3: Charges](README.md#S3:-Charges)
-5. [S3: Transfer Acceleration](README.md#S3:-Transfer-Acceleration)
-6. [S3: Setting up a S3 bucket](README.md#S3:-Setting-up-a-S3-bucket)
-7. [S3: Versioning Control](README.md#S3:-Versioning-Control)
-8. [S3: Cross Region Replication (CRR)](README.md#S3:-Cross-Region-Replication-(CRR))
-9. [S3: Life Cyce Management](README.md#S3:-Life-Cyce-Management)
-10. [S3: Versioning Control](README.md#S3:-Versioning-Control)
+# Table of Contents
+1. [S3: Data consistency model](AWS_S3.md#S3:-Data-consistency-model)
+2. [S3 : a key value store](AWS_S3.md#S3:-a-key-value-store)
+3. [S3: Storage Tiers](AWS_S3.md#S3:-Storage-Tiers)
+4. [S3: Charges](AWS_S3.md#S3:-Charges)
+5. [S3: Transfer Acceleration](AWS_S3.md#S3:-Transfer-Acceleration)
+6. [S3: Setting up a S3 bucket](AWS_S3.md#S3:-Setting-up-a-S3-bucket)
+7. [S3: Versioning Control](AWS_S3.md#S3:-Versioning-Control)
+8. [S3: Cross Region Replication (CRR)](AWS_S3.md#S3:-Cross-Region-Replication-(CRR))
+9. [S3: Life Cyce Management](AWS_S3.md#S3:-Life-Cyce-Management)
+10. [S3: Versioning Control](AWS_S3.md#S3:-Versioning-Control)
+
 ### S3: Data consistency model
 - Read and write consistency for put (upload) operation. These operations are ACID
 - Eventual consistency for Update and Delete.
