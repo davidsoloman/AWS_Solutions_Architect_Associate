@@ -16,11 +16,11 @@
 
 # Table of Contents
 
-1. [S3: Data consistency model](AWS_S3.md#S3:-Data-consistency-model)
+1. [S3: Data consistency model](#S3:-Data-consistency-model)
 
-2. [S3 : a key value store](AWS_S3.md#S3:-a-key-value-store)
+2. [S3 : a key value store](#S3:-a-key-value-store)
 
-3. [S3: Storage Tiers](AWS_S3.md#S3:-Storage-Tiers)
+3. [S3: Storage Tiers](#S3:-Storage-Tiers)
 
 4. [S3: Charges](AWS_S3.md#S3:-Charges)
 
