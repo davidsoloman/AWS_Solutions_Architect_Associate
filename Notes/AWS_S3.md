@@ -14,11 +14,21 @@
 ```
 - File upload code : 200(successful upload)  
 
+1. [S3: Data consistency model]( README.md#S3:-Data-consistency-model)
+2. [S3 : a key value store](README.md#S3:-a-key-value-store)
+3. [S3: Storage Tiers](README.md#S3:-Storage-Tiers)
+4. [S3: Charges](README.md#S3:-Charges)
+5. [S3: Transfer Acceleration](README.md#S3:-Transfer-Acceleration)
+6. [S3: Setting up a S3 bucket](README.md#S3:-Setting-up-a-S3-bucket)
+7. [S3: Versioning Control](README.md#S3:-Versioning-Control)
+8. [S3: Cross Region Replication (CRR)](README.md#S3:-Cross-Region-Replication-(CRR))
+9. [S3: Life Cyce Management](README.md#S3:-Life-Cyce-Management)
+10. [S3: Versioning Control](README.md#S3:-Versioning-Control)
 ### S3: Data consistency model
 - Read and write consistency for put (upload) operation. These operations are ACID
 - Eventual consistency for Update and Delete.
 
-### S3 : a key value store
+### S3: a key value store
 S3 is a object based storage where files are stored as key-value store
 - key: when data is loaded to S3, a key is created which is name of the file
 - value: data or sequence of bytes making the file
@@ -174,7 +184,21 @@ Note: Permissions can be set up while creating the
 
 **Step3:** Once new object is uploaded or existing version is updated this is replicated across the replicated bucket.
 
-<img src="../Images/S3/CRR3a.png" width="600">
+<img src="../Images/S3/CRr3a.png" width="600">
 
 <img src="../Images/S3/CRR3b.png" width="600">
 
+
+### S3: Life Cyce Management
+
+- Need to enable versioning in the bucket.
+- This help to manage the cost 
+- Standard -> Infrequent access -> Glacier
+- Note: Bucket need to have >128Kb to be archived
+- Can be applied to current and previous versions. 
+   
+Old Version:
+1. Make sure versioning is enabled
+2. Data is archived for 90 days on glacier no matter if its deleted earlier than that
+
+   
