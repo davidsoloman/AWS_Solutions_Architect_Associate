@@ -15,10 +15,15 @@
 - File upload code : 200(successful upload)  
 
 # Table of Contents
+
 1. [S3: Data consistency model](AWS_S3.md#S3:-Data-consistency-model)
+
 2. [S3 : a key value store](AWS_S3.md#S3:-a-key-value-store)
+
 3. [S3: Storage Tiers](AWS_S3.md#S3:-Storage-Tiers)
+
 4. [S3: Charges](AWS_S3.md#S3:-Charges)
+
 5. [S3: Transfer Acceleration](AWS_S3.md#S3:-Transfer-Acceleration)
 6. [S3: Setting up a S3 bucket](AWS_S3.md#S3:-Setting-up-a-S3-bucket)
 7. [S3: Versioning Control](AWS_S3.md#S3:-Versioning-Control)
